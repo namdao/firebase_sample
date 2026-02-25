@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "703598673962",
+    "project_id": "healcare-flutter",
+    "storage_bucket": "healcare-flutter.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:703598673962:android:9585d91bb115994bd00353",
+        "android_client_info": {
+          "package_name": "com.namdao.healthcare_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAapQCFBzQhr9C6Ib_4LQ7n2fbCfv0-YbI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:703598673962:android:c1fa00ff7da239bed00353",
+        "android_client_info": {
+          "package_name": "com.namdao.healthcare_app.dev"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAapQCFBzQhr9C6Ib_4LQ7n2fbCfv0-YbI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
