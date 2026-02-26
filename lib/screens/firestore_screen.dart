@@ -1,5 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 
 class FirestoreScreen extends StatefulWidget {
   const FirestoreScreen({super.key});
@@ -87,11 +88,11 @@ class _FirestoreScreenState extends State<FirestoreScreen> {
         ),
         actions: [
           TextButton(
-            onPressed: () => Navigator.pop(context, false),
+            onPressed: () => context.pop(false),
             child: const Text('Cancel'),
           ),
           FilledButton(
-            onPressed: () => Navigator.pop(context, true),
+            onPressed: () => context.pop(true),
             child: const Text('Update'),
           ),
         ],
@@ -130,11 +131,11 @@ class _FirestoreScreenState extends State<FirestoreScreen> {
         content: const Text('Are you sure you want to delete this note?'),
         actions: [
           TextButton(
-            onPressed: () => Navigator.pop(context, false),
+            onPressed: () => context.pop(false),
             child: const Text('Cancel'),
           ),
           FilledButton(
-            onPressed: () => Navigator.pop(context, true),
+            onPressed: () => context.pop(true),
             style: FilledButton.styleFrom(
               backgroundColor: Theme.of(context).colorScheme.error,
             ),
