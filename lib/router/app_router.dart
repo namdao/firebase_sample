@@ -1,3 +1,4 @@
+import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
 import '../screens/analytics_screen.dart';
@@ -30,47 +31,73 @@ final GoRouter appRouter = GoRouter(
     GoRoute(
       path: AppRoutes.home,
       name: 'home',
-      builder: (context, state) => const HomeScreen(),
+      pageBuilder: (context, state) => const NoTransitionPage(
+        child: HomeScreen(),
+      ),
     ),
     GoRoute(
       path: AppRoutes.auth,
       name: 'auth',
-      builder: (context, state) => const AuthScreen(),
+      pageBuilder: (context, state) => MaterialPage(
+        key: state.pageKey,
+        child: const AuthScreen(),
+      ),
     ),
     GoRoute(
       path: AppRoutes.firestore,
       name: 'firestore',
-      builder: (context, state) => const FirestoreScreen(),
+      pageBuilder: (context, state) => MaterialPage(
+        key: state.pageKey,
+        child: const FirestoreScreen(),
+      ),
     ),
     GoRoute(
       path: AppRoutes.storage,
       name: 'storage',
-      builder: (context, state) => const StorageScreen(),
+      pageBuilder: (context, state) => MaterialPage(
+        key: state.pageKey,
+        child: const StorageScreen(),
+      ),
     ),
     GoRoute(
       path: AppRoutes.analytics,
       name: 'analytics',
-      builder: (context, state) => const AnalyticsScreen(),
+      pageBuilder: (context, state) => MaterialPage(
+        key: state.pageKey,
+        child: const AnalyticsScreen(),
+      ),
     ),
     GoRoute(
       path: AppRoutes.crashlytics,
       name: 'crashlytics',
-      builder: (context, state) => const CrashlyticsScreen(),
+      pageBuilder: (context, state) => MaterialPage(
+        key: state.pageKey,
+        child: const CrashlyticsScreen(),
+      ),
     ),
     GoRoute(
       path: AppRoutes.messaging,
       name: 'messaging',
-      builder: (context, state) => const MessagingScreen(),
+      pageBuilder: (context, state) => MaterialPage(
+        key: state.pageKey,
+        child: const MessagingScreen(),
+      ),
     ),
     GoRoute(
       path: AppRoutes.performance,
       name: 'performance',
-      builder: (context, state) => const PerformanceScreen(),
+      pageBuilder: (context, state) => MaterialPage(
+        key: state.pageKey,
+        child: const PerformanceScreen(),
+      ),
     ),
     GoRoute(
       path: AppRoutes.remoteConfig,
       name: 'remote-config',
-      builder: (context, state) => const RemoteConfigScreen(),
+      pageBuilder: (context, state) => MaterialPage(
+        key: state.pageKey,
+        child: const RemoteConfigScreen(),
+      ),
     ),
   ],
 );
