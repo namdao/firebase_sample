@@ -9,7 +9,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.example.fbSample</string>
+	<string>com.namdao.healthcareApp.ios</string>
 	<key>PROJECT_ID</key>
 	<string>healcare-flutter</string>
 	<key>STORAGE_BUCKET</key>
@@ -25,6 +25,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:703598673962:ios:68633aa6fbd375f1d00353</string>
+	<string>1:703598673962:ios:f071de25f16a5405d00353</string>
 </dict>
 </plist>

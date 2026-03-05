@@ -42,7 +42,7 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: 'AIzaSyAapQCFBzQhr9C6Ib_4LQ7n2fbCfv0-YbI',
-    appId: '1:703598673962:android:5366f2727cf2b7aad00353',
+    appId: '1:703598673962:android:9585d91bb115994bd00353',
     messagingSenderId: '703598673962',
     projectId: 'healcare-flutter',
     storageBucket: 'healcare-flutter.firebasestorage.app',
@@ -50,11 +50,11 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyCWf61qH6MwuTV4g87xup07jrIwFlIgvHE',
-    appId: '1:703598673962:ios:68633aa6fbd375f1d00353',
+    appId: '1:703598673962:ios:f071de25f16a5405d00353',
     messagingSenderId: '703598673962',
     projectId: 'healcare-flutter',
     storageBucket: 'healcare-flutter.firebasestorage.app',
-    iosBundleId: 'com.example.fbSample',
+    iosBundleId: 'com.namdao.healthcareApp.ios',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
